@@ -109,7 +109,7 @@ Token unik yang dikumpulkan dari semua dokumen yang diproses membentuk kosakata 
   |14 |	The Dark Knight Rises|
   |15 | 	Batman: The Long Halloween, Part Two|
   Tabel 1. Output model *Content Based Filtering*
-Dapat dilihat dari tabel diatas bahwa model dengan pendekatan *Content Based Filtering* telah menampilkan beberapa rekomendasi dari input film berjudul *The Conjuring*. Seluruh film yang ada dalam output tersebut merupakan film yang memiliki sinposis yang mirip dengan input film.
+Dapat dilihat dari tabel diatas bahwa model dengan pendekatan *Content Based Filtering* telah menampilkan beberapa rekomendasi dari input film berjudul *Batman Begins*. Seluruh film yang ada dalam output tersebut merupakan film yang memiliki sinposis yang mirip dengan input film.
 
 + Berikut merupakan hasil rekomendasi model *Bag of Words* : 
 + Contoh output model dengan input "Batman Begins"
@@ -132,7 +132,7 @@ Dapat dilihat dari tabel diatas bahwa model dengan pendekatan *Content Based Fil
   |	Twelve|
   | 	Sound of Metal|
 Tabel 2. Output model *Bag of Words*
-Dapat dilihat dari tabel diatas bahwa model dengan pendekatan *Bag of Words* telah menampilkan beberapa rekomendasi dari input film berjudul *The Conjuring*. Seluruh film yang ada dalam output tersebut memiliki perhitungan kata yang mirip dalam tabel 'tags'.
+Dapat dilihat dari tabel diatas bahwa model dengan pendekatan *Bag of Words* telah menampilkan beberapa rekomendasi dari input film berjudul *Batman Begins*. Seluruh film yang ada dalam output tersebut memiliki perhitungan kata yang mirip dalam tabel 'tags'.
 ## Evaluation
 Metriks evaluasi yang digunakan kedua model algoritma baik *Content Based Filtering* maupun *Bag of Words* adalah *precision*. Untuk proses perhitungan *precision* ini dapat dilakukan secara manual menggunakan rumus sebagai berikut : ![rumusPrecision](https://github.com/endrichoabednego/Dicoding-Academy/blob/main/GambarTerapan1/R.png?raw=true)
 Gambar 2. Rumus *Precision*
